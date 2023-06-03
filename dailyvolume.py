@@ -6,8 +6,8 @@ with open('/SZ(or SH).txt','r',encoding='utf-8') as f:                    #creat
     b=all.split()
     c = []
     for x in b:
-        ball.set_token('xqat=bbcf3abaeecc14b646ce7bfb68cffd22094e48ae;')  # taken of snowball
-        aa = ball.quotec('SZ' + x)
+        ball.set_token('xqat=bbcf3************************;')  # taken of snowball
+        aa = ball.quotec('SZ(or SH)' + x)
         qudata = aa['data']
         aimdic = qudata[0]
         c.append(aimdic)
